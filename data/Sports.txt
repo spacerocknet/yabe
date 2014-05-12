@@ -1,0 +1,21 @@
+Sports|What team did Steve Nash play for before signing with the Lakers in 2012|Phoenix Suns|Miami Heat|New York Knicks|San Antonio Spurs
+Sports|What legendary actor is often seen wearing sunglasses in his court side seat at Lakers home games|Jack Nicholson|Al Pacino|Anthony Hopkins|Robert De Niro
+Sports|What team did Mike D'Antoni coach before joining the Lakers|New York Knicks|Houston Rockets|Golden State Warriors|Brooklyn Nets
+Sports|What is the name of the arena where the Lakers play|The Staples Center|The Mobil One Center|The Office Max Center|The Times Union Center
+Sports|What one time Lakers has the record for most season leading league in defensive rebounds with six|Dwight Howard|Wilt Chamberlain|Kareem Jabbar|Shaquille O'Neal
+Sports|Who did Chick Hearn call Mr. Basketball|George Mikan|Kareem Jabbar|Jerry West|Magic Johnson
+Sports|Who was the Lakers' starting point guard in the 2004-05 season|Chucky Atkins|Derek Fisher|Smush Parker|Jordan Farmar
+Sports|Which club did Eden Hazard sign for in 2012|West Ham Utd|Manchester City|Chelsea|Newcastle United"),3));
+Sports|As of 2013, which of these is a soccer player in Liverpool FC|Daniel Sturridge|Matt Carpenter|Trevor Rosenthal|Andrei Kirilenko
+Sports|Which country is hosting the 2014 World Cup Finals|Brazil|Italy|Mexico|Argentian
+Sports|As of 2013, which of these is a soccer player in Liverpool FC|Raheem Sterling|Lance Lynn|Peter Kozma|Jason Terry
+Sports|The Estadio Santiago Bernabau is a soccer stadium in which city|Madrid|Rome|Seville|Milan
+Sports|Which 35 year old footballer won the PFA Player of the Year Award in 2009|Ryan Giggs|Alan Shearer|Gary Neville|Alan Hansen
+Sports|What was David Beckham's squad number in his first World Cup|7|11|10|23
+Sports|The Miami Dolphins compete in which sports|American Football|Basketball|Baseball|Ice Hockey|American Football
+Sports|Detroit Red Wings compete in which sport|Ice Hockey|American Football|Basketball|Baseball
+Sports|What colour is the 8-ball in a game of pool|Black|Orange|Yellow|Purple
+Sports|In american football, how many points are scored for a touchdown|6|5|4|3
+Sports|Which of these teams' coaches would wear the same uniform as the players|New York Yankees|New York Giants|New York Knicks|New York Rangers
+Sports|What trophy was found at the bottom of Mario Lemieux's swimming pool in 1991|Stanley Cup|Jules Rimet Trophy|Borg Warner|Heisman Trophy
+Sports|Goal Shooter and Goal Attack are the only players that can score in which sport|Netball|Lacrosse|Ice Hockey|Aussie Rules Football

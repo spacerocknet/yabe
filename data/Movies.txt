@@ -1,0 +1,15 @@
+Movies|Who directed 'Avatar' in 2009|James Cameron|Werner Herzog|Sam Raimi|Kathryn Bigelow
+Movies|Who is the director of the 2010 movie 'Kick Ass'|Mathew Vaughn|Spike Lee|Ridley Scott|Peter Jackson
+Movies|In 'Men in Black 3', if Will Smith is 'J', Tommy Lee Jones is 'K', who is 'O'|Emma Thompson|Nicolas Cage|Josh Brolin|Lady Gaga
+Movies|'True Lies' was directed by which of the following|James Cameron|Jan de Bont|John McTiernan|Tony Scott
+Movies|Which actor is the voice of Lightening McQueen in the 2011 movie 'Cars 2'|Owen Wilson|Charlie Sheen|Clive Owen|Liam Neeson
+Movies|Who plays the role of Iron Man in 'The Avengers'|Robert Downey Jr|Mark Ruffalo|Christian Bale|Brandon Routh
+Movies|In 'Iron Man 3', what is the name of the experimental regenerative drug created by Dr. Killian|Extremis|Vitalis|J.A.R.V.I.S|Payola
+Movie||Which of the following is not an Arnold Schwarzegegger film|Cliffhanger|Kindergarten Cop|Conan the Barbarian|The Last Stand
+Movies|How many colors are used as 'Mr' aliases in 'Reservoir Dogs'|6|7|8|3
+Movies|At the 2009 Golden Globe Awards, who won Best Director for 'Avatar'|James Cameron|Danny Boyle|Steven Spielberg|Martin Scorsese
+Movies|Which movie was written Aaron Sorkin|The Social Network|The King's Speech|Brokeback Mountain|Big Fish
+Movies|Who directed a 2011 adaptation of 'Jane Eyre' starring Mia Wasikowska|Shana Feste|Cary Fukunaga|Miguel  Arteta|Adam Deacon
+Movies|What is the sub-title of the 2002 Lord of the Rings movie|The Two Towers|The Return of the King|Rise of the Witch King|The Fellowship of the Ring
+Movies|Who played the role of Bruce Banner in the 2008 film 'The incredible Hulk'|Edward Norton|Tim Roth|Mark Ruffalo|Eric Bana|Edward Norton
+Movies|Who played Peter Parker in the Spiderman re-boot 'The Amazing Spider-Man'|Andrew Garfield|Johnny Depp|James Marsden|Tobey Maguire

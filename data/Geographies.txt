@@ -1,0 +1,10 @@
+Geography|Where is Lithuania|In EU|In US|In Asia|In Australia
+Geography|Milan is a city in which Italian Region|Lombardy|Tuscany|Piedmonth|Sicilia
+Geography|Which of these is a city in Switzerland|Geneva|InnsBruck|LilyHammer|Hesse
+Geography|The largest ancient castle in the world is located in this city|Prague|Memphis|Bejing|Cairo
+Geography|Which of these is a city in Paraguay|San Lorenzo|Oruro|Saltao|La Plato
+Geography|Genoa is a major city in which Eurupean country|Italy|Bulgari|France|Russia
+Geography|Mount Catherine has been the highest point in two different countries.  Where is it|Sinai Peninsula|Kurdistan|Kuwait|Golan Heights
+Geography|Which of these countries does Oman NOT share a border with|Kuwait|Yemen|United Arab Emirates|Saudi Arabia
+Geography|What Arab nation has the highest percentage of Christian|Lebanon|Egypt|Syria|Iraq
+Geography|What was the only country ever to have archdukes, although it doesn't anymore|Austria|Germany|Netherlands|Austria

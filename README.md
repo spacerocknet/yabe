@@ -1,4 +1,4 @@
-yabe
-====
+This is your new Play application
+=====================================
 
-Frontend with play 
+This file will be packaged with your application, when using `play dist`.
