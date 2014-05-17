@@ -28,6 +28,11 @@ object Quiz extends Controller {
         "key3" -> 234
    )
 
+  val jsonConfig = Json.obj(
+                      "categories" -> Json.arr("Movies", "Spors", "Geographies", "Musics"),
+                      "battles_per_game" -> 6
+                   )
+
   def hello = Action {
     Ok(json)
   }
@@ -41,6 +46,10 @@ object Quiz extends Controller {
                       "Musics"
                   )
         Ok(json)
+  }
+
+  def config = Action {
+     Ok(jsonConfig)
   }
 
 
@@ -151,6 +160,15 @@ object Quiz extends Controller {
         BadRequest("Invalid EAN")
       }
     }
+  }
+
+  
+  def savetest = Action { implicit request =>
+    println(s"*** content-type: ${request.contentType}")
+    println(s"*** headers: ${request.headers}")
+    println(s"*** body: ${request.body}")
+    println(s"*** query string: ${request.rawQueryString}") 
+    Ok("Ok")
   }
 
 

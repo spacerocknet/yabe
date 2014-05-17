@@ -6,13 +6,14 @@
 GET     /                           controllers.Application.index
 
 # JSON
-GET     /quiz/categories            controllers.Quiz.categories
-GET     /quiz/quan/:qid             controllers.Quiz.details(qid: Long)
+GET     /v1/quiz/config                controllers.Quiz.config
+GET     /v1/quiz/categories            controllers.Quiz.categories
+GET     /v1/quiz/quan/:qid             controllers.Quiz.details(qid: Long)
 
-POST    /quiz/request               controllers.Quiz.quizRequest
-POST    /quiz/game/result           controllers.Quiz.gameResult
-POST    /quiz/save                  controllers.Quiz.save
-
+POST    /v1/quiz/request               controllers.Quiz.quizRequest
+POST    /v1/quiz/result                controllers.Quiz.gameResult
+POST    /v1/quiz/save                  controllers.Quiz.save
+POST    /v1/quiz/savetest              controllers.Quiz.savetest
 
 
 # Map static resources from the /public folder to the /assets URL path
