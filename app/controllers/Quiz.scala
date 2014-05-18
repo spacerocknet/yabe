@@ -1,5 +1,7 @@
 package controllers
 
+import scala.util.Random
+
 import play.api.mvc._
 import play.api.mvc.Controller
 
@@ -71,21 +73,29 @@ object Quiz extends Controller {
       val quizReq = quizReqJson.as[QuizRequest]
       println("userId: " + quizReq.userId)
       println("category: " + quizReq.category)
+      println("num: " + quizReq.num)
 
-      val jsonResult = Json.arr(
-           Json.obj("category" -> "Movies",
-                    "qid" -> 1234,
-                    "questions" -> "What is A?",
-                    "answers" -> Json.arr("a", "b", "c", "d")
-                   ),
-           Json.obj("category" -> "Sports",
-                    "qid" -> 1235,
-                    "questions" -> "What is B?",
-                    "answers" -> Json.arr("a1", "b1", "c1", "d1")
-                   )
-      )
+      if (!QuAn.getQuestions.contains(quizReq.category)) {
+         Ok(JsArray())
+      } else {
+         val r: Random = new Random()
+         var seq = Seq[JsObject]()
+         var i: Int = 0;
+         val questions = QuAn.getQuestions(quizReq.category).toArray[QuAn]
+         val subSet = questions
+         for(i <- 0 until quizReq.num) {
+            val index = Math.abs(r.nextInt()) % subSet.size
+            var q = subSet(index) 
+            var jsonObj = Json.obj("category" -> q.category,
+                                   "qid" -> q.qid,
+                                   "questions" -> q.question,
+                                   "answers" -> Json.arr(q.correctAns, q.ans1, q.ans2, q.ans3)
+                                  )
+            seq = seq:+ jsonObj
+         }
 
-      Ok(jsonResult)
+         Ok(JsArray(seq))
+      }
     }
     catch {
       //case e:IllegalArgumentException => BadRequest("Product not found")
@@ -187,8 +197,8 @@ object Quiz extends Controller {
   /**
    * Returns details of the given quan.
    */
-  def details(qid: Long) = Action {
-    QuAn.findById(qid).map { quan =>
+  def details(cat: String, qid: Long) = Action {
+    QuAn.findById(cat, qid).map { quan =>
       Ok(Json.toJson(quan))
     }.getOrElse(NotFound)
   }

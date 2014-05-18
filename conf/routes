@@ -8,7 +8,7 @@ GET     /                           controllers.Application.index
 # JSON
 GET     /v1/quiz/config                controllers.Quiz.config
 GET     /v1/quiz/categories            controllers.Quiz.categories
-GET     /v1/quiz/quan/:qid             controllers.Quiz.details(qid: Long)
+GET     /v1/quiz/quan/:cat/:qid             controllers.Quiz.details(cat: String, qid: Long)
 
 POST    /v1/quiz/request               controllers.Quiz.quizRequest
 POST    /v1/quiz/result                controllers.Quiz.gameResult
